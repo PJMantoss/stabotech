@@ -6,20 +6,17 @@ import { Link } from 'react-router-dom';
 
 const Container = styled.div`
     height: 60px;
-    ${mobile({ height: "50px" })};
 `;
 
 const Wrapper = styled.div`
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
-    ${mobile({ padding: "10px 0" })};
 `;
 
 const Language = styled.div`
     font-size: 14px;
     cursor: pointer;
-    ${mobile({ display: "none" })};
 `;
 
 const Left = styled.div`
