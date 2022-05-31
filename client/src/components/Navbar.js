@@ -42,8 +42,8 @@ const Center = styled.div`
 `;
 
 const Logo = styled.img`
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 `;
 
 const Right = styled.div`
@@ -74,8 +74,11 @@ const Navbar = () => {
               </SearchContainer>
           </Center>
           <Right>
-              <MenuItem>REGISTER</MenuItem>
-              <MenuItem>SIGN IN</MenuItem>
+                <MenuItem>about</MenuItem>
+                <MenuItem>startups</MenuItem>
+                <MenuItem>investors</MenuItem>
+                <MenuItem>register</MenuItem>
+                <MenuItem>sign in</MenuItem>
           </Right>
       </Wrapper>
   </Container>
