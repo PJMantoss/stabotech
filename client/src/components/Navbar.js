@@ -20,7 +20,7 @@ const Language = styled.div`
 
 const Left = styled.div`
     text-align: center;
-    flex:1;
+    flex: 1;
 `;
 
 const SearchContainer = styled.div`
@@ -36,7 +36,7 @@ const Input = styled.input`
 `;
 
 const Center = styled.div`
-    flex:1;
+    flex: 1;
     display: flex;
     align-items: center;
 `;
@@ -50,13 +50,14 @@ const Right = styled.div`
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    flex:1;
+    flex: 2;
 `;
 
 const MenuItem = styled.div`
     font-size: 14px;
     cursor: pointer;
     margin-left: 25px;
+    text-transform: uppercase;
 `;
 
 const Navbar = () => {
@@ -77,6 +78,7 @@ const Navbar = () => {
                 <MenuItem>about</MenuItem>
                 <MenuItem>startups</MenuItem>
                 <MenuItem>investors</MenuItem>
+                <MenuItem>contact</MenuItem>
                 <MenuItem>register</MenuItem>
                 <MenuItem>sign in</MenuItem>
           </Right>
