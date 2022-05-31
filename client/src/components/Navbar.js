@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import SearchIcon from '@mui/icons-material/Search';
-import Badge from '@mui/material/Badge';
 import { Link } from 'react-router-dom';
 
 const Container = styled.div`
@@ -20,8 +19,7 @@ const Language = styled.div`
 `;
 
 const Left = styled.div`
-    display: flex;
-    align-items: center;
+    text-align: center;
     flex:1;
 `;
 
@@ -39,11 +37,13 @@ const Input = styled.input`
 
 const Center = styled.div`
     flex:1;
-    text-align: center;
+    display: flex;
+    align-items: center;
 `;
 
-const Logo = styled.h1`
-    font-weight: bold;
+const Logo = styled.img`
+    width: 100px;
+    height: 100px;
 `;
 
 const Right = styled.div`
@@ -61,7 +61,24 @@ const MenuItem = styled.div`
 
 const Navbar = () => {
   return (
-    <Container>Navbar</Container>
+    <Container>
+      <Wrapper>
+          <Left>
+            <Logo src={'./assets/logo-mini.png'} />
+          </Left>
+          <Center>
+          <Language>EN</Language>
+              <SearchContainer>
+                  <Input placeholder="Search" />
+                <SearchIcon style={{color:"gray", fontSize:16}} />
+              </SearchContainer>
+          </Center>
+          <Right>
+              <MenuItem>REGISTER</MenuItem>
+              <MenuItem>SIGN IN</MenuItem>
+          </Right>
+      </Wrapper>
+  </Container>
   )
 }
 
