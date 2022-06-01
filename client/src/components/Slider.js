@@ -27,6 +27,16 @@ const Slide = styled.div`
     background: #${props=>props.bg}
 `;
 
+const ImgContainer = styled.div`
+    flex: 1;
+`;
+
+const InfoContainer = styled.div`
+    flex: 1;
+    padding: 50px;
+`;
+
+
 const Slider = () => {
   return (
     <Container>
