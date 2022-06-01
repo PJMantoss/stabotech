@@ -1,7 +1,7 @@
 export const sliderItems = [
     {
         id: 1,
-        image: "https://i.ibb.co/WGy8pVY/investor.jpg",
+        image: "https://i.ibb.co/C9xSW31/investor.jpg",
         title: "INVESTORS FIND TECH TALENTS HERE",
         desc: "Discover & Invest in Africa's Best Techies",
         bg: "f5fafd"

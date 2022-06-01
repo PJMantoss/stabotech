@@ -38,11 +38,11 @@ const InfoContainer = styled.div`
 `;
 
 const Image = styled.img`
-    height: 70%;
+    height: 60%;
 `;
 
 const Title = styled.h1`
-    font-size: 70px;
+    font-size: 50px;
 `;
 const Desc = styled.p`
     margin: 50px 0;
