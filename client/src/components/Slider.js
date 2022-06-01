@@ -19,9 +19,38 @@ const Wrapper = styled.div`
     transform: translateX(${(props) => props.slideIndex * - 100}vw);
 `;
 
+const Slide = styled.div`
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: #${props=>props.bg}
+`;
+
 const Slider = () => {
   return (
-    <Container>Slider</Container>
+    <Container>
+        <Arrow direction="left" onClick={() => handleClick("left")}>
+            <ArrowLeftOutlinedIcon />
+        </Arrow>
+        <Wrapper slideIndex={slideIndex}>
+            {sliderItems.map(item => (
+                <Slide bg={item.bg}>
+                <ImgContainer>
+                    <Image src={item.image} />
+                </ImgContainer>
+                <InfoContainer>
+                    <Title>{item.title}</Title>
+                    <Desc>{item.desc}</Desc>
+                    <Button>SHOW NOW</Button>
+                </InfoContainer>
+            </Slide>
+            ))}
+        </Wrapper>
+        <Arrow direction="right" onClick={() => handleClick("right")}>
+            <ArrowRightOutlinedIcon />
+        </Arrow>
+    </Container>
   )
 }
 
