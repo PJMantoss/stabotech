@@ -36,6 +36,46 @@ const InfoContainer = styled.div`
     padding: 50px;
 `;
 
+const Image = styled.img`
+    height: 80%;
+`;
+
+const Title = styled.h1`
+    font-size: 70px;
+`;
+const Desc = styled.p`
+    margin: 50px 0;
+    font-size: 20px;
+    font-weight: 500px;
+    letter-spacing: 3px;
+`;
+
+const Button = styled.button`
+    padding: 10px;
+    font-size: 20px;
+    background: transparent;
+    cursor: pointer;
+`;
+
+const Arrow = styled.div`
+    width: 50px;
+    height: 50px;
+    background-color: #fff7f7;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: ${props => props.direction === "left" && "10px"};
+    right: ${props => props.direction === "right" && "10px"};
+    cursor: pointer;
+    opacity: 0.7;
+    z-index: 2;
+`;
+
 
 const Slider = () => {
   return (
