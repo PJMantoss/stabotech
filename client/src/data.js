@@ -8,7 +8,7 @@ export const sliderItems = [
     },
     {
         id: 2,
-        image: "https://i.ibb.co/DG69bQ4/2.png",
+        image: "https://photos.google.com/photo/AF1QipOSIx7ru0kK1auOSlCf9nURLKxcvKXi-iGxYcbv",
         title: "AUTUMN COLLECTION",
         desc: "Don't Compromise on Style. Get 30% Off!",
         bg: "fcf1ed"
