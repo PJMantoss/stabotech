@@ -10,6 +10,7 @@ const Container = styled.div`
     display: flex;
     position: relative;
     overflow: hidden;
+    margin-top: 40px;
 `;
 
 const Wrapper = styled.div`
@@ -79,7 +80,7 @@ const Arrow = styled.div`
 
 const Slider = () => {
     const [slideIndex, setSlideIndex] = useState(0);
-    
+
     const handleClick = direction => {
         if(direction === "left"){
             setSlideIndex(slideIndex > 0 ? slideIndex-1 : 2);
