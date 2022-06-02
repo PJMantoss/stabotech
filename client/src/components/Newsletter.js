@@ -20,7 +20,6 @@ const Title = styled.h1`
 const Desc = styled.div`
     font-size: 24px;
     margin-bottom: 20px;
-    ${mobile({ textAlign: "center" })};
 `;
 
 const InputContainer = styled.div`
@@ -29,7 +28,6 @@ const InputContainer = styled.div`
     width: 50%;
     height: 40px;
     border: 1px solid lightgray;
-    ${mobile({ width: "80%" })};
 `;
 
 const Input = styled.input`
@@ -48,7 +46,16 @@ const Button = styled.button`
 
 const Newsletter = () => {
   return (
-    <div>Newsletter</div>
+    <Container>
+        <Title>Newsletter</Title>
+        <Desc>Get timely updates on your favorite companies!</Desc>
+        <InputContainer>
+            <Input placeholder="Your E-Mail" />
+            <Button>
+                <SendIcon />
+            </Button>
+        </InputContainer>
+    </Container>
   )
 }
 
