@@ -59,14 +59,14 @@ const Center = styled.div`
 
 const Title = styled.h3`
   margin-bottom: 30px;
+  align-self: left;
 `;
 
 const List = styled.ul`
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  align-items: flex-start;
-  justify-content: flex-start;
+  text-align: left;
   margin: 0;
   padding: 0;
 `;
