@@ -12,8 +12,8 @@ const Container = styled.div`
     background: #fcf5f5;
 `;
 
-const Title = styled.h1`
-    font-size: 70px;
+const Title = styled.h2`
+    font-size: 60px;
     margin-bottom: 20px;
 `;
 
@@ -39,7 +39,7 @@ const Input = styled.input`
 const Button = styled.button`
     flex: 1;
     border: none;
-    background: teal;
+    background: #2982eb;
     color: white;
 `;
 
