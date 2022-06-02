@@ -55,11 +55,11 @@ const SocialIcon = styled.div`
 const Center = styled.div`
   flex: 1;
   padding: 20px;
+  text-align: left;
 `;
 
 const Title = styled.h3`
   margin-bottom: 30px;
-  align-self: left;
 `;
 
 const List = styled.ul`
@@ -80,6 +80,7 @@ const Right = styled.div`
   flex: 1;
   padding: 20px;
   margin-top: 5px;
+  text-align: left;
 `;
 
 const ContactItem = styled.div`
