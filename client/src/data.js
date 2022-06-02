@@ -10,7 +10,7 @@ export const sliderItems = [
         id: 2,
         image: "https://i.ibb.co/3dsTK7L/head-png-1000.png",
         title: "STARTUP-INVESTOR HUB",
-        desc: "This is Where Great Ideas Meet Sponsorship",
+        desc: "This is Where Great Ideas Meet Finances",
         bg: "fcf1ed"
     },
     {
