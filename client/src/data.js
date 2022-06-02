@@ -2,7 +2,7 @@ export const sliderItems = [
     {
         id: 1,
         image: "https://i.ibb.co/C9xSW31/investor.jpg",
-        title: "INVESTORS FIND TECH TALENTS HERE",
+        title: "FIND STARTUPS HERE",
         desc: "Discover & Invest in Africa's Best Techies",
         bg: "f5fafd"
     },
@@ -16,8 +16,8 @@ export const sliderItems = [
     {
         id: 3,
         image: "https://i.ibb.co/PDtNL1P/black-business-woman.png",
-        title: "STARTUPS FIND INVESTORS HERE",
-        desc: "Get Funding For Your Brilliant Idea",
+        title: "FIND INVESTORS HERE",
+        desc: "Get Funding & Mentorship For Your Brilliant Idea",
         bg: "fbf0f4"
     }
 ];
