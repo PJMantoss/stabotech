@@ -10,7 +10,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import styled from 'styled-components';
 
 const Container = styled.div`
-  display: flex;
+  display: flex; 
 `;
 
 const Wrapper = styled.div`
@@ -107,21 +107,21 @@ const Footer = () => {
                 </Desc>
 
                 <SocialContainer>
-                <SocialIcon color="3b5999">
-                    <FacebookIcon />
-                </SocialIcon>
+                    <SocialIcon color="3b5999">
+                        <FacebookIcon />
+                    </SocialIcon>
 
-                <SocialIcon color="e4405f">
-                    <InstagramIcon />
-                </SocialIcon >
+                    <SocialIcon color="e4405f">
+                        <InstagramIcon />
+                    </SocialIcon >
 
-                <SocialIcon color="55acee">
-                    <TwitterIcon />
-                </SocialIcon>
+                    <SocialIcon color="55acee">
+                        <TwitterIcon />
+                    </SocialIcon>
 
-                <SocialIcon color="e60023">
-                    <PinterestIcon />
-                </SocialIcon>
+                    <SocialIcon color="e60023">
+                        <PinterestIcon />
+                    </SocialIcon>
                 </SocialContainer>
             </Left>
 
