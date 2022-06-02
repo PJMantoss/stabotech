@@ -81,7 +81,62 @@ const Payment = styled.img`
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <Container>
+      <Left>
+
+        <Logo>STABOTECH</Logo>
+
+        <Desc>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin suscipit libero massa, ut ullamcorper mi tempor ut. Maecenas vel odio sapien. 
+          Suspendisse potenti. Duis viverra elit sed tellus cursus bibendum.
+        </Desc>
+
+        <SocialContainer>
+          <SocialIcon color="3b5999">
+            <FacebookIcon />
+          </SocialIcon>
+
+          <SocialIcon color="e4405f">
+            <InstagramIcon />
+          </SocialIcon >
+
+          <SocialIcon color="55acee">
+            <TwitterIcon />
+          </SocialIcon>
+
+          <SocialIcon color="e60023">
+            <PinterestIcon />
+          </SocialIcon>
+        </SocialContainer>
+      </Left>
+
+      <Center>
+        <Title>Useful Links</Title>
+        <List>
+          <ListItem>Home</ListItem>
+          <ListItem>Cart</ListItem>
+          <ListItem>Men Fashion</ListItem>
+          <ListItem>Women Fashion</ListItem>
+          <ListItem>Accessories</ListItem>
+          <ListItem>My Account</ListItem>
+          <ListItem>Order Tracking</ListItem>
+          <ListItem>Wish List</ListItem>
+          <ListItem>Terms & Conditions</ListItem>
+        </List>
+      </Center>
+
+      <Right>
+        <Title>Contact</Title>
+        <ContactItem><LocationOnIcon style={{marginRight: "10px"}} /> 644 Ruff Path, Nairobi, Kenya</ContactItem>
+        <ContactItem><LocalPhoneIcon style={{marginRight: "10px"}} />+254 607 777 8888</ContactItem>
+        <ContactItem><EmailIcon style={{marginRight: "10px"}} />info@stabotech.com</ContactItem>
+
+        <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
+      </Right>
+
+    </Container>
+
   )
 }
 
