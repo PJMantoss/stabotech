@@ -26,9 +26,25 @@ const Card = styled.div`
 `;
 
 const Image = styled.img`
-    width: 95%;
-    height: 75%;
+    height: 70%;
 `;
+
+const Info = styled.div`
+    display: flex;
+    flex-direction: column;
+    width: 100%
+    height: 100%;
+`;
+
+const Title = styled.h4`
+    font-size: 20px;
+`;
+
+const Desc = styled.p`
+    font-size: 16px;
+`;
+
+const Link = styled.a``;
 
 const HomeWidgets = () => {
   return (
@@ -40,7 +56,7 @@ const HomeWidgets = () => {
                     <Info>
                         <Title></Title>
                         <Desc></Desc>
-                        <Button>learn more</Button>
+                        <Link>learn more</Link>
                     </Info>
                 </Card>
             ))}
