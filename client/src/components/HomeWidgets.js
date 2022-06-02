@@ -12,6 +12,7 @@ const Wrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 `;
 
 const Card = styled.div`
@@ -25,8 +26,8 @@ const Card = styled.div`
 `;
 
 const Image = styled.img`
-    width: 100px;
-    height: 100px;
+    width: 95%;
+    height: 75%;
 `;
 
 const HomeWidgets = () => {
