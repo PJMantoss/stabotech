@@ -17,7 +17,7 @@ export const sliderItems = [
         id: 3,
         image: "https://i.ibb.co/PDtNL1P/black-business-woman.png",
         title: "FIND INVESTORS HERE",
-        desc: "Get Funding & Mentorship For Your Brilliant Idea",
+        desc: "Get Funding & Mentorship For Your Startup",
         bg: "fbf0f4"
     }
 ];
