@@ -1,4 +1,5 @@
 import React from 'react';
+import { HomeWidgets } from '../data';
 import styled from 'styled-components';
 
 const Container = styled.div`
