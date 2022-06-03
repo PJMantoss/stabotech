@@ -40,7 +40,7 @@ const Input = styled.input`
 const Button = styled.button`
   width: 40%;
   border: none;
-  background: teal;
+  background: #2982eb;
   padding: 15px 20px;
   margin: 10px 0;
   color: white;
@@ -77,7 +77,6 @@ const Login = () => {
               type="password"
           />
           <Button>SIGN IN</Button>
-          {error && <Error>Something went wrong...</Error>}
           <Link>FORGOT YOUR PASSWORD?</Link>
           <Link>CREATE A NEW ACCOUNT</Link>
         </Form>
@@ -86,10 +85,4 @@ const Login = () => {
   )
 }
 
-export default Login
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
+export default Login;
