@@ -164,6 +164,7 @@ const Footer = () => {
                     <ListItem>Register</ListItem>
                     <ListItem>Find Investors</ListItem>
                     <ListItem>Competitor Analysis</ListItem>
+                    <ListItem>Terms & Conditions</ListItem>
                 </List>
             </Center>
 
