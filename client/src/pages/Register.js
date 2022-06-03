@@ -10,7 +10,7 @@ const Container = styled.div`
   background: linear-gradient(
     rgba(255, 255, 255, 0.5),
     rgba(255, 255, 255, 0.5)
-  ), url("https://images.pexels.com/photos/6984661/pexels-photo-6984661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center;
+  ), url("https://i.ibb.co/mcYKhTX/Nairobi-night-skyline-at-dusk.jpg") center;
   background-size: cover;
 `;
 
@@ -45,7 +45,7 @@ const Agreement = styled.span`
 const Button = styled.button`
   width: 40%;
   border: none;
-  background: teal;
+  background: #2982eb;
   padding: 15px 20px;
   color: white;
   cursor: pointer;
@@ -55,17 +55,16 @@ const Register = () => {
   return (
     <Container>
       <Wrapper>
-        <Title>CREATE ACCOUNTS</Title>
+        <Title>CREATE ACCOUNT</Title>
         <Form>
           <Input placeholder="first name" />
           <Input placeholder="last name" />
           <Input placeholder="email" />
-          <Input placeholder="username" />
+          <Input placeholder="company" />
           <Input placeholder="password" />
           <Input placeholder="confirm password" />
           <Agreement>
-            By creating an account, I agree to the processing of my personal data
-            in accordance with the <b>Privacy Policy</b>.
+            By creating an account, I agree to STABOTECH's <b>Terms & Conditions</b>.
           </Agreement>
           <Button>REGISTER</Button>
         </Form>
