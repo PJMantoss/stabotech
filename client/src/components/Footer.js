@@ -1,7 +1,7 @@
 import React from 'react';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import PinterestIcon from '@mui/icons-material/Pinterest';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
@@ -130,8 +130,8 @@ const Footer = () => {
                         <TwitterIcon />
                     </SocialIcon>
 
-                    <SocialIcon color="e60023">
-                        <PinterestIcon />
+                    <SocialIcon color="2982eb">
+                        <LinkedInIcon />
                     </SocialIcon>
                 </SocialContainer>
             </Left>
