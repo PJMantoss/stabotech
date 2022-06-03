@@ -43,7 +43,7 @@ export const homeWidgets = [
     },
     {
         id: 3,
-        image: "https://i.ibb.co/4jyzRjM/Market-Research.jpg",
+        image: "https://i.ibb.co/D8QYxSF/Market-Research.jpg",
         title: "market intelligence",
         desc: "Study emerging trends and industry patterns",
         bg: "fbf0f4"

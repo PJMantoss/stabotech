@@ -25,25 +25,28 @@ const Card = styled.div`
 `;
 
 const Image = styled.img`
-    height: 70%;
+    height: 80%;
+    width: 80%;
 `;
 
 const Info = styled.div`
     display: flex;
     flex-direction: column;
-    width: 100%
-    height: 100%;
+    width: 80%
 `;
 
 const Title = styled.h4`
-    font-size: 20px;
+    font-size: 30px;
+    text-transform: capitalize;
 `;
 
 const Desc = styled.p`
     font-size: 16px;
 `;
 
-const Link = styled.a``;
+const Link = styled.a`
+    text-transform: uppercase;
+`;
 
 const HomeWidget = () => {
   return (
@@ -53,8 +56,8 @@ const HomeWidget = () => {
                 <Card>
                     <Image src={item.image} />
                     <Info>
-                        <Title></Title>
-                        <Desc></Desc>
+                        <Title>{item.title}</Title>
+                        <Desc>{item.desc}</Desc>
                         <Link>learn more</Link>
                     </Info>
                 </Card>
