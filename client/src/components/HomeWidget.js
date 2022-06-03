@@ -1,7 +1,6 @@
 import React from 'react';
 import { HomeWidgets } from '../data';
 import styled from 'styled-components';
-import { Title } from '@mui/icons-material';
 
 const Container = styled.div`
   display: flex; 
