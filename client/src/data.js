@@ -27,22 +27,19 @@ export const homeWidgets = [
         id: 1,
         image: "https://i.ibb.co/LdGvjRw/investor-img.jpg",
         title: "find investors",
-        desc: "Research Investors and Monitor Investment Activities.",
-        bg: "#ffffff"
+        desc: "Research Investors and Monitor Investment Activities."
     },
     {
         id: 2,
         image: "https://i.ibb.co/C0zvqhF/Startups.jpg",
         title: "find startups",
-        desc: "Find and track innovative startups in your target sectors",
-        bg: "fcf1ed"
+        desc: "Find and track innovative startups in your target sectors"
     },
     {
         id: 3,
         image: "https://i.ibb.co/r0HsH4m/bd.png",
         title: "business development",
-        desc: "Discover how to create long-term value for your startup",
-        bg: "fbf0f4"
+        desc: "Discover how to create long-term value for your startup"
     },
     {
         id: 3,

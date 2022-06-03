@@ -1,5 +1,5 @@
 import React from 'react';
-import { HomeWidgets } from '../data';
+import { homeWidgets } from '../data';
 import styled from 'styled-components';
 
 const Container = styled.div`
@@ -49,7 +49,7 @@ const HomeWidget = () => {
   return (
     <Container>
         <Wrapper>
-            {HomeWidgets.map(item => (
+            {homeWidgets.map(item => (
                 <Card>
                     <Image src={item.image} />
                     <Info>
