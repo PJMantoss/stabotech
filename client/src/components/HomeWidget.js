@@ -50,6 +50,12 @@ const Link = styled.a`
     background: #2982eb;
     color: #fff;
     width: 50%;
+    cursor: pointer;
+
+    &:hover{
+        background: #fff;
+        color: #2982eb;
+    }
 `;
 
 const HomeWidget = () => {
