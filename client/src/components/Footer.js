@@ -132,18 +132,26 @@ const Footer = () => {
                 </SocialContainer>
             </Left>
 
+            <WhatWeDo>
+                <Title>What We Do</Title>
+                <List>
+                    <ListItem>Fund Raising</ListItem>
+                    <ListItem>Deal Sourcing</ListItem>
+                    <ListItem>Market Research</ListItem>
+                    <ListItem>GTM Strategy</ListItem>
+                    <ListItem>Market Intelligence</ListItem>
+                </List>
+            </WhatWeDo>
+
             <Center>
                 <Title>Useful Links</Title>
                 <List>
-                    <ListItem>Home</ListItem>
-                    <ListItem>Cart</ListItem>
-                    <ListItem>Men Fashion</ListItem>
+                    <ListItem>STABOTECH Pro</ListItem>
+                    <ListItem>Register</ListItem>
+                    <ListItem>About Us</ListItem>
                     <ListItem>Women Fashion</ListItem>
                     <ListItem>Accessories</ListItem>
-                    <ListItem>My Account</ListItem>
-                    <ListItem>Order Tracking</ListItem>
-                    <ListItem>Wish List</ListItem>
-                    <ListItem>Terms & Conditions</ListItem>
+                    <ListItem>Contact Us</ListItem>
                 </List>
             </Center>
 
