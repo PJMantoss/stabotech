@@ -10,7 +10,7 @@ const Container = styled.div`
   background: linear-gradient(
     rgba(255, 255, 255, 0.5),
     rgba(255, 255, 255, 0.5)
-  ), url("https://images.pexels.com/photos/6984650/pexels-photo-6984650.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center;
+  ), url("https://i.ibb.co/s2fWR6x/lagos-skyline.jpg") center;
   background-size: cover;
 `;
 
@@ -46,7 +46,7 @@ const Button = styled.button`
   color: white;
   cursor: pointer;
   &:disabled{
-    color: green;
+    color: blue;
     cursor: not-allowed;
   }
 `;
