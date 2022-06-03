@@ -18,7 +18,6 @@ const Wrapper = styled.div`
   width: 40%;
   padding: 20px;
   background: white;
-  ${mobile({ width: "75%" })};
 `;
 
 const Title = styled.h1`
