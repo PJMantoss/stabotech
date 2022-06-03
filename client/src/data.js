@@ -38,7 +38,7 @@ export const homeWidgets = [
     {
         id: 3,
         image: "https://i.ibb.co/r0HsH4m/bd.png",
-        title: "business development",
+        title: "business devt.",
         desc: "Discover how to create long-term value for your startup"
     },
     {
