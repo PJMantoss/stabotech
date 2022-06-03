@@ -17,7 +17,7 @@ const Wrapper = styled.div`
 const Card = styled.div`
     flex: 1;
     width: 350px;
-    height: 420px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,7 +36,7 @@ const Info = styled.div`
 `;
 
 const Title = styled.h4`
-    font-size: 30px;
+    font-size: 25px;
     text-transform: capitalize;
 `;
 
@@ -46,6 +46,10 @@ const Desc = styled.p`
 
 const Link = styled.a`
     text-transform: uppercase;
+    padding: 8px 12px;
+    background: #2982eb;
+    color: #fff;
+    width: 50%;
 `;
 
 const HomeWidget = () => {
