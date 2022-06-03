@@ -10,7 +10,7 @@ const Container = styled.div`
     display: flex;
     position: relative;
     overflow: hidden;
-    margin-top: 40px;
+    margin: 40px auto;
 `;
 
 const Wrapper = styled.div`
@@ -55,7 +55,14 @@ const Button = styled.button`
     padding: 10px;
     font-size: 20px;
     background: transparent;
+    color: #2982eb;
     cursor: pointer;
+    border: 1px solid #2982eb;
+
+    &:hover{
+        background: #2982eb;
+        color: #fff;
+    }
 `;
 
 const Arrow = styled.div`
