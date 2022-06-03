@@ -58,6 +58,11 @@ const WhatWeDo = styled.div`
   text-align: left;
 `;
 
+const CompanyInfo = styled.div`
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+`;
 
 const Center = styled.div`
   flex: 1;
@@ -142,15 +147,23 @@ const Footer = () => {
                 </List>
             </WhatWeDo>
 
+            <CompanyInfo>
+                <Title>Company</Title>
+                <List>
+                    <ListItem>About Us</ListItem>
+                    <ListItem>Services</ListItem>
+                    <ListItem>Careers</ListItem>
+                    <ListItem>Contact Us</ListItem>
+                </List>
+            </CompanyInfo>
+
             <Center>
                 <Title>Useful Links</Title>
                 <List>
                     <ListItem>STABOTECH Pro</ListItem>
                     <ListItem>Register</ListItem>
-                    <ListItem>About Us</ListItem>
+                    <ListItem>Find Investors</ListItem>
                     <ListItem>Competitor Analysis</ListItem>
-                    <ListItem>Careers</ListItem>
-                    <ListItem>Contact Us</ListItem>
                 </List>
             </Center>
 
