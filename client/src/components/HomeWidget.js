@@ -46,7 +46,7 @@ const Desc = styled.p`
 
 const Link = styled.a``;
 
-const HomeWidgets = () => {
+const HomeWidget = () => {
   return (
     <Container>
         <Wrapper>
@@ -65,4 +65,4 @@ const HomeWidgets = () => {
   )
 }
 
-export default HomeWidgets;
+export default HomeWidget;
