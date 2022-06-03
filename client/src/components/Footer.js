@@ -33,7 +33,7 @@ const Logo = styled.img`
 
 const Desc = styled.p`
     margin: 20px 0;
-    text-aling: justify;
+    text-align: justify;
 `;
 
 const SocialContainer = styled.div`
@@ -71,7 +71,7 @@ const Title = styled.h3`
 
 const List = styled.ul`
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   list-style: none;
   text-align: left;
   margin: 0;
@@ -79,7 +79,6 @@ const List = styled.ul`
 `;
 
 const ListItem = styled.li`
-  width: 50%;
   margin-bottom: 10px;
 `;
 
@@ -149,8 +148,8 @@ const Footer = () => {
                     <ListItem>STABOTECH Pro</ListItem>
                     <ListItem>Register</ListItem>
                     <ListItem>About Us</ListItem>
-                    <ListItem>Women Fashion</ListItem>
-                    <ListItem>Accessories</ListItem>
+                    <ListItem>Competitor Analysis</ListItem>
+                    <ListItem>Careers</ListItem>
                     <ListItem>Contact Us</ListItem>
                 </List>
             </Center>
