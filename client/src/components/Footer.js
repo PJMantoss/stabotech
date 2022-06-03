@@ -52,6 +52,13 @@ const SocialIcon = styled.div`
   margin-right: 20px;
 `;
 
+const WhatWeDo = styled.div`
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+`;
+
+
 const Center = styled.div`
   flex: 1;
   padding: 20px;
