@@ -9,7 +9,7 @@ const Container = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: #fcf5f5;
+    margin: 30px auto;
 `;
 
 const Title = styled.h2`
