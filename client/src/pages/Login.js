@@ -70,7 +70,7 @@ const Login = () => {
         <Title>SIGN IN</Title>
         <Form>
           <Input 
-              placeholder="username"
+              placeholder="email"
           />
           <Input 
               placeholder="password" 
