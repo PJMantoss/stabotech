@@ -1,4 +1,18 @@
-import React from 'react'
+import React from 'react';
+import styled from 'styled-components';
+
+const Container = styled.div``;
+
+const Wrapper = styled.div`
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+`;
+
+const Left = styled.div``;
+
+const Right = styled.div``;
 
 const UserAccount = () => {
   return (
@@ -7,29 +21,38 @@ const UserAccount = () => {
             <Left>
                 <User>
                     <Image />
-                    <Name>Talo Harrison</Name>
+                    <UserName>Talo Harrison</UserName>
                 </User>
                 <MySabotech>
                     <MyTitle>My SABOTECH</MyTitle>
-                    <MyRecommendation>
+                    <SetionTitle></SetionTitle>
                         My Recommendations
-                    </MyRecommendation>
-                    <Favorites>
+                    <SetionTitle></SetionTitle>
+                    <SetionTitle>
                         Favorites
-                    </Favorites>
-                    <SearchInvestors>
-                        Searc Investors
-                    </SearchInvestors>
-                    <SearchStartups>
-                        Searc Startups
-                    </SearchStartups>
-                    <Profile>
+                    </SetionTitle>
+                    <SetionTitle>
+                        Search Investors
+                    </SetionTitle>
+                    <SetionTitle>
+                        Search Startups
+                    </SetionTitle>
+                    <SetionTitle>
                         Create/Edit Profile
-                    </Profile>
+                    </SetionTitle>
                 </MySabotech>
             </Left>
 
-            <Right></Right>
+            <Right>
+                <CompanySection>
+                    <SetionTitle></SetionTitle>
+                    <CoyDetail></CoyDetail>
+                </CompanySection>
+                <InfoSection>
+                    <SetionTitle></SetionTitle>
+                    <Info></Info>
+                </InfoSection>
+            </Right>
         </Wrapper>
     </Container>
   )
