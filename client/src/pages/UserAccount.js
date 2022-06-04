@@ -6,14 +6,26 @@ const UserAccount = () => {
         <Wrapper>
             <Left>
                 <User>
-                    <Image></Image>
+                    <Image />
                     <Name></Name>
                 </User>
                 <MySabotech>
-                    <MyRecommendation></MyRecommendation>
-                    <Favorites></Favorites>
-                    <SearchInvestors></SearchInvestors>
-                    <SearchStartups></SearchStartups>
+                    <MyTitle>My SABOTECH</MyTitle>
+                    <MyRecommendation>
+                        My Recommendations
+                    </MyRecommendation>
+                    <Favorites>
+                        Favorites
+                    </Favorites>
+                    <SearchInvestors>
+                        Searc Investors
+                    </SearchInvestors>
+                    <SearchStartups>
+                        Searc Startups
+                    </SearchStartups>
+                    <Profile>
+                        Create/Edit Profile
+                    </Profile>
                 </MySabotech>
             </Left>
 
