@@ -4,7 +4,18 @@ const UserAccount = () => {
   return (
     <Container>
         <Wrapper>
-            <Left></Left>
+            <Left>
+                <User>
+                    <Image></Image>
+                    <Name></Name>
+                </User>
+                <MySabotech>
+                    <MyRecommendation></MyRecommendation>
+                    <Favorites></Favorites>
+                    <SearchInvestors></SearchInvestors>
+                    <SearchStartups></SearchStartups>
+                </MySabotech>
+            </Left>
 
             <Right></Right>
         </Wrapper>
