@@ -7,7 +7,7 @@ const UserAccount = () => {
             <Left>
                 <User>
                     <Image />
-                    <Name></Name>
+                    <Name>Talo Harrison</Name>
                 </User>
                 <MySabotech>
                     <MyTitle>My SABOTECH</MyTitle>
