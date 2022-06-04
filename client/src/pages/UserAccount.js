@@ -45,11 +45,11 @@ const UserAccount = () => {
 
             <Right>
                 <CompanySection>
-                    <SetionTitle></SetionTitle>
+                    <SetionTitle>Recommendations</SetionTitle>
                     <CoyDetail></CoyDetail>
                 </CompanySection>
                 <InfoSection>
-                    <SetionTitle></SetionTitle>
+                    <SetionTitle>Latest Investments</SetionTitle>
                     <Info></Info>
                 </InfoSection>
             </Right>
