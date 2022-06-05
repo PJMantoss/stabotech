@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../components/Footer';
 import PersonIcon from '@mui/icons-material/Person';
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 import FavoriteIcon from '@mui/icons-material/Favorite';
@@ -203,6 +204,7 @@ const UserAccount = () => {
             </Right>
 
         </Wrapper>
+        <Footer />
     </Container>
   )
 }
