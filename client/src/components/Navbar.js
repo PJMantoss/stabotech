@@ -65,7 +65,7 @@ const Navbar = () => {
     <Container>
       <Wrapper>
           <Left>
-              <Link to="/">
+              <Link to="/" style={{textDecoration: "none"}}>
                 <Logo src={'./assets/logo-mini.png'} />
               </Link>
           </Left>
@@ -80,12 +80,13 @@ const Navbar = () => {
                 <MenuItem>about</MenuItem>
                 <MenuItem>startups</MenuItem>
                 <MenuItem>investors</MenuItem>
+                
                 <MenuItem>contact</MenuItem>
-                <Link to="/register">
+                <Link to="/register" style={{textDecoration: "none"}}>
                     <MenuItem>register</MenuItem>
                 </Link>
                 
-                <Link to="/login">
+                <Link to="/login" style={{textDecoration: "none"}}>
                     <MenuItem>sign in</MenuItem>
                 </Link>
                 
