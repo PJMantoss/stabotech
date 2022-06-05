@@ -111,7 +111,7 @@ const Footer = () => {
     <Container>
         <Wrapper>
             <Left>
-                <Link to="/">
+                <Link to="/" style={{textDecoration: "none"}}>
                   <Logo src={'./assets/logo-mini.png'} />
                 </Link>
 
@@ -167,7 +167,7 @@ const Footer = () => {
                     <ListItem>STABOTECH Pro</ListItem>
                     <ListItem>Register</ListItem>
                     <ListItem>Find Investors</ListItem>
-                    <Link to="/useraccount">
+                    <Link to="/useraccount" style={{textDecoration: "none"}}>
                       <ListItem>My STABOTECH</ListItem>
                     </Link>
                     
