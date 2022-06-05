@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Navbar from '../components/Navbar';
 import styled from 'styled-components';
 
 const Container = styled.div`
@@ -81,6 +82,7 @@ const Login = () => {
           <Link>CREATE A NEW ACCOUNT</Link>
         </Form>
       </Wrapper>
+      <Navbar />
     </Container>
   )
 }
