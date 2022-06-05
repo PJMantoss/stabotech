@@ -18,7 +18,17 @@ const Image = styled.img``;
 
 const UserName = styled.p``;
 
+const MySabotech = styled.div``;
+
+const MyTitle = styled.h3``;
+
+const SetionTitle = styled.h5``;
+
 const Right = styled.div``;
+
+const CompanySection = styled.div``;
+
+const CoyDetail = styled.p``;
 
 const UserAccount = () => {
   return (
