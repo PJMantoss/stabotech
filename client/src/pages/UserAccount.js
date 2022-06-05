@@ -12,6 +12,12 @@ const Wrapper = styled.div`
 
 const Left = styled.div``;
 
+const User = styled.div``;
+
+const Image = styled.img``;
+
+const UserName = styled.p``;
+
 const Right = styled.div``;
 
 const UserAccount = () => {
