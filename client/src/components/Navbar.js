@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import SearchIcon from '@mui/icons-material/Search';
 import { Link } from 'react-router-dom';
+import { mobile } from '../responsive';
 
 const Container = styled.div`
     height: 60px;
