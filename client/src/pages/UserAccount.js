@@ -20,6 +20,8 @@ const Wrapper = styled.div`
     margin: 0 auto;
 `;
 
+const Icon = styled.div``;
+
 const Left = styled.div``;
 
 const User = styled.div``;
@@ -32,7 +34,7 @@ const MySabotech = styled.div``;
 
 const MyTitle = styled.h3``;
 
-const SectionTitle = styled.h5``;
+const SectionTitle = styled.div``;
 
 const Right = styled.div``;
 
@@ -58,18 +60,23 @@ const UserAccount = () => {
                 <MySabotech>
                     <MyTitle>My SABOTECH</MyTitle>
                     <SectionTitle>
+                        <Icon></Icon>
                         <CheckCircleOutlineIcon/>My Recommendations
                     </SectionTitle>
                     <SectionTitle>
+                        <Icon></Icon>
                         <FavoriteIcon/>Favorites
                     </SectionTitle>
                     <SectionTitle>
+                        <Icon></Icon>
                         <SearchIcon /> Search Investors
                     </SectionTitle>
                     <SectionTitle>
+                        <Icon></Icon>
                         <SearchIcon /> Search Startups
                     </SectionTitle>
                     <SectionTitle>
+                        <Icon></Icon>
                         <EditIcon /> Create/Edit Profile
                     </SectionTitle>
                 </MySabotech>
@@ -77,11 +84,17 @@ const UserAccount = () => {
 
             <Right>
                 <CompanySection>
-                    <SectionTitle>Recommendations</SectionTitle>
+                    <SectionTitle>
+                        <Icon></Icon>
+                        Recommendations
+                    </SectionTitle>
                     <CoyDetail></CoyDetail>
                 </CompanySection>
                 <InfoSection>
-                    <SectionTitle>Latest Investments</SectionTitle>
+                    <SectionTitle>
+                        <Icon></Icon>
+                        Latest Investments
+                    </SectionTitle>
                     <Info></Info>
                 </InfoSection>
             </Right>
