@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import styled from 'styled-components';
 
 const Container = styled.div`
@@ -66,6 +66,7 @@ const Link = styled.a`
 const Login = () => {
 
   return (
+    <>
     <Container>
       <Wrapper>
         <Title>SIGN IN</Title>
@@ -82,8 +83,9 @@ const Login = () => {
           <Link>CREATE A NEW ACCOUNT</Link>
         </Form>
       </Wrapper>
-      <Navbar />
     </Container>
+    <Footer />
+    </>
   )
 }
 
