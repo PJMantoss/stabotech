@@ -29,18 +29,37 @@ const Icon = styled.div`
 const Left = styled.div`
     flex: 1;
     position: relative;
-    display: flex;
-    flex-direction: column:
-    align-items: flex-start;
+    display: block;
 `;
 
-const User = styled.div``;
+const User = styled.div`
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+`;
 
-const UserIcon = styled.div``;
+const UserIcon = styled.div`
+    display: flex;
+    align-items: center;
+    justify: content: center;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 5px;
+`;
 
-const UserName = styled.p``;
+const UserName = styled.p`
+    font-size: 16px;
+    font-weight: 700;
+    color: #2982eb;
+`;
 
-const MySabotech = styled.div``;
+const MySabotech = styled.div`
+    position: relative;
+    display: inherit;
+    flex-direction: column;
+`;
 
 const MyTitle = styled.h3``;
 
@@ -86,7 +105,7 @@ const UserAccount = () => {
             <Left>
                 <User>
                     <UserIcon>
-                        <PersonIcon />
+                        <PersonIcon style={{width: "60px", height:"60px", color:"#2982eb"}} />
                     </UserIcon>
                     <UserName>Talo Harrison</UserName>
                 </User>
