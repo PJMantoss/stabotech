@@ -8,7 +8,9 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <UserAccount />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+      </Routes>
     </Router>
   );
 }
