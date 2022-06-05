@@ -30,6 +30,10 @@ const CompanySection = styled.div``;
 
 const CoyDetail = styled.p``;
 
+const InfoSection = styled.div``;
+
+const Info = styled.p``;
+
 const UserAccount = () => {
   return (
     <Container>
