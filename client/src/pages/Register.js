@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import styled from 'styled-components';
 
 const Container = styled.div`
@@ -7,7 +7,7 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
   background: linear-gradient(
     rgba(255, 255, 255, 0.5),
     rgba(255, 255, 255, 0.5)
@@ -54,6 +54,7 @@ const Button = styled.button`
 
 const Register = () => {
   return (
+    <>
     <Container>
       <Wrapper>
         <Title>CREATE ACCOUNT</Title>
@@ -70,8 +71,9 @@ const Register = () => {
           <Button>REGISTER</Button>
         </Form>
       </Wrapper>
-      <Navbar />
     </Container>
+    <Footer />
+    </>
   )
 }
 
