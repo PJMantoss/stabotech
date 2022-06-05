@@ -6,17 +6,20 @@ import { mobile } from '../responsive';
 
 const Container = styled.div`
     height: 60px;
+    ${mobile({ height: "auto", width:"95%" })};
 `;
 
 const Wrapper = styled.div`
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
+    ${mobile({ flexDirection: "column", padding: "5px 8px", width:"100%" })};
 `;
 
 const Language = styled.div`
     font-size: 14px;
     cursor: pointer;
+    ${mobile({ fontSize: "12px" })};
 `;
 
 const Left = styled.div`
