@@ -18,9 +18,13 @@ const Wrapper = styled.div`
     justify-content: space-between;
     position: relative;
     margin: 0 auto;
+    padding: 20px;
+    background: #f1efef;
 `;
 
-const Icon = styled.div``;
+const Icon = styled.div`
+    color: #2982eb;
+`;
 
 const Left = styled.div``;
 
@@ -118,7 +122,10 @@ const UserAccount = () => {
                         Latest Investments
                     </SectionTitle>
 
-                    <Info></Info>
+                    <Info>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Donec eget est quis justo sollicitudin elementum. 
+                    Aenean sodales ultrices velit nec mollis.</Info>
                 </InfoSection>
             </Right>
 
