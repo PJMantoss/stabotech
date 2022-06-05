@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
 import PersonIcon from '@mui/icons-material/Person';
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 import FavoriteIcon from '@mui/icons-material/Favorite';
@@ -18,7 +19,7 @@ const Wrapper = styled.div`
     align-items: center;
     justify-content: space-between;
     position: relative;
-    margin: 0 auto;
+    margin: 70px auto;
     padding: 20px;
     background: #f1efef;
 `;
@@ -124,6 +125,7 @@ const Info = styled.p`
 const UserAccount = () => {
   return (
     <Container>
+        <Navbar />
         <Wrapper>
             <Left>
                 <User>
