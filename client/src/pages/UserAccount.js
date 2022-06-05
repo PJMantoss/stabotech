@@ -12,7 +12,7 @@ const Container = styled.div`
 `;
 
 const Wrapper = styled.div`
-    width: 80%;
+    width: 60%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -24,18 +24,18 @@ const Wrapper = styled.div`
 
 const Icon = styled.div`
     color: #2982eb;
+    margin-right: 10px;
 `;
 
 const Left = styled.div`
     flex: 1;
-    position: relative;
     display: block;
 `;
 
 const User = styled.div`
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;;
 `;
 
 const UserIcon = styled.div`
@@ -56,23 +56,32 @@ const UserName = styled.p`
 `;
 
 const MySabotech = styled.div`
-    position: relative;
-    display: inherit;
+    display: flex;
     flex-direction: column;
+    align-items: flex-start;
 `;
 
 const MyTitle = styled.h3``;
 
-const Section = styled.div``;
+const Section = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+`;
 
 const Right = styled.div`
     flex: 1;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 `;
 
 const CompanySection = styled.div`
+    width: 100%;
     background: #fff;
     padding: 20px 0;
+    margin-bottom: 20px;
 `;
 
 const FollowBtn = styled.button`
@@ -85,14 +94,20 @@ const FollowBtn = styled.button`
     font-size: 16px;
     font-weight: 700;
     cursor: pointer;
+    margin-top: 20px;
 `;
 
 const CoyLogo = styled.img`
     width: 150px;
     height: 50px;
+    margin-top: 20px;
 `;
 
-const CoyDetail = styled.p``;
+const CoyDetail = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+`;
 
 const InfoSection = styled.div``;
 
@@ -152,7 +167,7 @@ const UserAccount = () => {
 
             <Right>
                 <CompanySection>
-                    <Section>
+                    <Section >
                         <Icon>
                             <CheckCircleOutlineIcon/>
                         </Icon>
