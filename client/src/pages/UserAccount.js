@@ -57,47 +57,63 @@ const UserAccount = () => {
                     </UserIcon>
                     <UserName>Talo Harrison</UserName>
                 </User>
+
                 <MySabotech>
                     <MyTitle>My SABOTECH</MyTitle>
                     <SectionTitle>
-                        <Icon></Icon>
-                        <CheckCircleOutlineIcon/>My Recommendations
+                        <Icon>
+                            <CheckCircleOutlineIcon/>
+                        </Icon>
+                        My Recommendations
                     </SectionTitle>
+
                     <SectionTitle>
                         <Icon></Icon>
                         <FavoriteIcon/>Favorites
                     </SectionTitle>
+
                     <SectionTitle>
                         <Icon></Icon>
                         <SearchIcon /> Search Investors
                     </SectionTitle>
+
                     <SectionTitle>
                         <Icon></Icon>
                         <SearchIcon /> Search Startups
                     </SectionTitle>
+
                     <SectionTitle>
                         <Icon></Icon>
                         <EditIcon /> Create/Edit Profile
                     </SectionTitle>
                 </MySabotech>
+
             </Left>
 
             <Right>
                 <CompanySection>
                     <SectionTitle>
-                        <Icon></Icon>
-                        Recommendations
+                        <Icon>
+                            <CheckCircleOutlineIcon/>
+                        </Icon>
+                        Recommended
                     </SectionTitle>
+                    
                     <CoyDetail></CoyDetail>
                 </CompanySection>
+
                 <InfoSection>
                     <SectionTitle>
-                        <Icon></Icon>
+                        <Icon>
+                            <ArticleIcon />
+                        </Icon>
                         Latest Investments
                     </SectionTitle>
+
                     <Info></Info>
                 </InfoSection>
             </Right>
+
         </Wrapper>
     </Container>
   )
