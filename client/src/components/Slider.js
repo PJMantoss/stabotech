@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import ArrowLeftOutlinedIcon from '@mui/icons-material/ArrowLeftOutlined';
 import ArrowRightOutlinedIcon from '@mui/icons-material/ArrowRightOutlined';
 import { sliderItems } from '../data';
+import { mobile } from '../responsive';
 import styled from 'styled-components';
 
 const Container = styled.div`
@@ -11,6 +12,7 @@ const Container = styled.div`
     position: relative;
     overflow: hidden;
     margin: 40px auto;
+    ${mobile({ display: "none" })};
 `;
 
 const Wrapper = styled.div`
