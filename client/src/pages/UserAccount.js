@@ -1,5 +1,9 @@
 import React from 'react';
 import PersonIcon from '@mui/icons-material/Person';
+import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import ArticleIcon from '@mui/icons-material/Article';
+import SearchIcon from '@mui/icons-material/Search';
 import styled from 'styled-components';
 
 const Container = styled.div`
@@ -27,7 +31,7 @@ const MySabotech = styled.div``;
 
 const MyTitle = styled.h3``;
 
-const SetionTitle = styled.h5``;
+const SectionTitle = styled.h5``;
 
 const Right = styled.div``;
 
@@ -52,21 +56,21 @@ const UserAccount = () => {
                 </User>
                 <MySabotech>
                     <MyTitle>My SABOTECH</MyTitle>
-                    <SetionTitle></SetionTitle>
-                        My Recommendations
-                    <SetionTitle></SetionTitle>
-                    <SetionTitle>
-                        Favorites
-                    </SetionTitle>
-                    <SetionTitle>
-                        Search Investors
-                    </SetionTitle>
-                    <SetionTitle>
-                        Search Startups
-                    </SetionTitle>
-                    <SetionTitle>
+                    <SectionTitle>
+                        <CheckCircleOutlineIcon/>My Recommendations
+                    </SectionTitle>
+                    <SectionTitle>
+                        <FavoriteIcon/>Favorites
+                    </SectionTitle>
+                    <SectionTitle>
+                        <SearchIcon /> Search Investors
+                    </SectionTitle>
+                    <SectionTitle>
+                        <SearchIcon /> Search Startups
+                    </SectionTitle>
+                    <SectionTitle>
                         Create/Edit Profile
-                    </SetionTitle>
+                    </SectionTitle>
                 </MySabotech>
             </Left>
 
