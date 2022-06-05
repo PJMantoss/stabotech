@@ -43,11 +43,13 @@ const Center = styled.div`
     flex: 1;
     display: flex;
     align-items: center;
+    ${mobile({ justifyContent: "center", alignItems: "center" })};
 `;
 
 const Logo = styled.img`
     width: 85px;
     height: 85px;
+    ${mobile({ width: "80px", height: "85px" })};
 `;
 
 const Right = styled.div`
@@ -55,6 +57,7 @@ const Right = styled.div`
     align-items: center;
     justify-content: flex-end;
     flex: 2;
+    ${mobile({ flexDirection: "column", justifyContent: "center", marginTop: "10px" })};
 `;
 
 const MenuItem = styled.div`
@@ -62,6 +65,7 @@ const MenuItem = styled.div`
     cursor: pointer;
     margin-left: 25px;
     text-transform: uppercase;
+    ${mobile({ fontSize: "12px", marginBottom: "10px" })};
 `;
 
 const Navbar = () => {
