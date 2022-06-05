@@ -12,7 +12,7 @@ const Container = styled.div`
 `;
 
 const Wrapper = styled.div`
-    width: 60%;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,7 +26,13 @@ const Icon = styled.div`
     color: #2982eb;
 `;
 
-const Left = styled.div``;
+const Left = styled.div`
+    flex: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column:
+    align-items: flex-start;
+`;
 
 const User = styled.div``;
 
@@ -38,11 +44,34 @@ const MySabotech = styled.div``;
 
 const MyTitle = styled.h3``;
 
-const SectionTitle = styled.div``;
+const Section = styled.div``;
 
-const Right = styled.div``;
+const Right = styled.div`
+    flex: 1;
+    position: relative;
+`;
 
-const CompanySection = styled.div``;
+const CompanySection = styled.div`
+    background: #fff;
+    padding: 20px 0;
+`;
+
+const FollowBtn = styled.button`
+    background: #2982eb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 22px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+`;
+
+const CoyLogo = styled.img`
+    width: 150px;
+    height: 50px;
+`;
 
 const CoyDetail = styled.p``;
 
@@ -64,63 +93,66 @@ const UserAccount = () => {
 
                 <MySabotech>
                     <MyTitle>My SABOTECH</MyTitle>
-                    <SectionTitle>
+                    <Section>
                         <Icon>
                             <CheckCircleOutlineIcon/>
                         </Icon>
                         My Recommendations
-                    </SectionTitle>
+                    </Section>
 
-                    <SectionTitle>
+                    <Section>
                         <Icon>
                             <FavoriteIcon/>
                         </Icon>
                         Favorites
-                    </SectionTitle>
+                    </Section>
 
-                    <SectionTitle>
+                    <Section>
                         <Icon>
                             <SearchIcon />
                         </Icon>
                          Search Investors
-                    </SectionTitle>
+                    </Section>
 
-                    <SectionTitle>
+                    <Section>
                         <Icon>
                             <SearchIcon />
                         </Icon>
                         Search Startups
-                    </SectionTitle>
+                    </Section>
 
-                    <SectionTitle>
+                    <Section>
                         <Icon>
                             <EditIcon />
                         </Icon>
                         Create/Edit Profile
-                    </SectionTitle>
+                    </Section>
                 </MySabotech>
 
             </Left>
 
             <Right>
                 <CompanySection>
-                    <SectionTitle>
+                    <Section>
                         <Icon>
                             <CheckCircleOutlineIcon/>
                         </Icon>
                         Recommended
-                    </SectionTitle>
+                    </Section>
 
-                    <CoyDetail></CoyDetail>
+                    <CoyDetail>
+                        <CoyLogo src={'./assets/twiga-logo.png'} />
+                        <FollowBtn>follow</FollowBtn>
+                    </CoyDetail>
                 </CompanySection>
 
                 <InfoSection>
-                    <SectionTitle>
+                    <Section>
                         <Icon>
                             <ArticleIcon />
                         </Icon>
                         Latest Investments
-                    </SectionTitle>
+                    </Section>
 
                     <Info>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
