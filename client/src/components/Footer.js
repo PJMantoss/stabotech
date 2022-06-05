@@ -85,6 +85,7 @@ const List = styled.ul`
 
 const ListItem = styled.li`
   margin-bottom: 10px;
+  cursor: 'pointer';
 `;
 
 const Right = styled.div`
