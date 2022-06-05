@@ -68,23 +68,31 @@ const UserAccount = () => {
                     </SectionTitle>
 
                     <SectionTitle>
-                        <Icon></Icon>
-                        <FavoriteIcon/>Favorites
+                        <Icon>
+                            <FavoriteIcon/>
+                        </Icon>
+                        Favorites
                     </SectionTitle>
 
                     <SectionTitle>
-                        <Icon></Icon>
-                        <SearchIcon /> Search Investors
+                        <Icon>
+                            <SearchIcon />
+                        </Icon>
+                         Search Investors
                     </SectionTitle>
 
                     <SectionTitle>
-                        <Icon></Icon>
-                        <SearchIcon /> Search Startups
+                        <Icon>
+                            <SearchIcon />
+                        </Icon>
+                        Search Startups
                     </SectionTitle>
 
                     <SectionTitle>
-                        <Icon></Icon>
-                        <EditIcon /> Create/Edit Profile
+                        <Icon>
+                            <EditIcon />
+                        </Icon>
+                        Create/Edit Profile
                     </SectionTitle>
                 </MySabotech>
 
@@ -98,7 +106,7 @@ const UserAccount = () => {
                         </Icon>
                         Recommended
                     </SectionTitle>
-                    
+
                     <CoyDetail></CoyDetail>
                 </CompanySection>
 
