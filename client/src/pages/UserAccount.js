@@ -109,9 +109,16 @@ const CoyDetail = styled.div`
     align-items: center;
 `;
 
-const InfoSection = styled.div``;
+const InfoSection = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+`;
 
-const Info = styled.p``;
+const Info = styled.p`
+    text-align: justify;
+`;
 
 const UserAccount = () => {
   return (
