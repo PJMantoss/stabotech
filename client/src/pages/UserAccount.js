@@ -4,6 +4,7 @@ import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import ArticleIcon from '@mui/icons-material/Article';
 import SearchIcon from '@mui/icons-material/Search';
+import EditIcon from '@mui/icons-material/Edit';
 import styled from 'styled-components';
 
 const Container = styled.div`
@@ -69,18 +70,18 @@ const UserAccount = () => {
                         <SearchIcon /> Search Startups
                     </SectionTitle>
                     <SectionTitle>
-                        Create/Edit Profile
+                        <EditIcon /> Create/Edit Profile
                     </SectionTitle>
                 </MySabotech>
             </Left>
 
             <Right>
                 <CompanySection>
-                    <SetionTitle>Recommendations</SetionTitle>
+                    <SectionTitle>Recommendations</SectionTitle>
                     <CoyDetail></CoyDetail>
                 </CompanySection>
                 <InfoSection>
-                    <SetionTitle>Latest Investments</SetionTitle>
+                    <SectionTitle>Latest Investments</SectionTitle>
                     <Info></Info>
                 </InfoSection>
             </Right>
