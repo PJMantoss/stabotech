@@ -65,7 +65,9 @@ const Navbar = () => {
     <Container>
       <Wrapper>
           <Left>
-            <Logo src={'./assets/logo-mini.png'} />
+              <Link to="/">
+                <Logo src={'./assets/logo-mini.png'} />
+              </Link>
           </Left>
           <Center>
           <Language>EN</Language>
@@ -79,8 +81,14 @@ const Navbar = () => {
                 <MenuItem>startups</MenuItem>
                 <MenuItem>investors</MenuItem>
                 <MenuItem>contact</MenuItem>
-                <MenuItem>register</MenuItem>
-                <MenuItem>sign in</MenuItem>
+                <Link to="/register">
+                    <MenuItem>register</MenuItem>
+                </Link>
+                
+                <Link to="/login">
+                    <MenuItem>sign in</MenuItem>
+                </Link>
+                
           </Right>
       </Wrapper>
   </Container>

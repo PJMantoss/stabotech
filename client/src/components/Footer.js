@@ -6,6 +6,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import EmailIcon from '@mui/icons-material/Email';
+import { Link } from 'react-router-dom';
 
 import styled from 'styled-components';
 
@@ -164,7 +165,10 @@ const Footer = () => {
                     <ListItem>STABOTECH Pro</ListItem>
                     <ListItem>Register</ListItem>
                     <ListItem>Find Investors</ListItem>
-                    <ListItem>Competitor Analysis</ListItem>
+                    <Link to="/useraccount">
+                      <ListItem>My STABOTECH</ListItem>
+                    </Link>
+                    
                     <ListItem>Terms & Conditions</ListItem>
                 </List>
             </Center>
