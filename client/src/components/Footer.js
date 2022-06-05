@@ -111,7 +111,9 @@ const Footer = () => {
     <Container>
         <Wrapper>
             <Left>
-                <Logo src={'./assets/logo-mini.png'} />
+                <Link to="/">
+                  <Logo src={'./assets/logo-mini.png'} />
+                </Link>
 
                 <Desc>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
