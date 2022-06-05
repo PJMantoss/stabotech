@@ -1,20 +1,25 @@
 import React from 'react';
+import PersonIcon from '@mui/icons-material/Person';
 import styled from 'styled-components';
 
-const Container = styled.div``;
+const Container = styled.div`
+    margin: 20px auto;
+`;
 
 const Wrapper = styled.div`
-    width: 70%;
+    width: 60%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+    margin: 0 auto;
 `;
 
 const Left = styled.div``;
 
 const User = styled.div``;
 
-const Image = styled.img``;
+const UserIcon = styled.div``;
 
 const UserName = styled.p``;
 
@@ -40,7 +45,9 @@ const UserAccount = () => {
         <Wrapper>
             <Left>
                 <User>
-                    <Image />
+                    <UserIcon>
+                        <PersonIcon />
+                    </UserIcon>
                     <UserName>Talo Harrison</UserName>
                 </User>
                 <MySabotech>
