@@ -7,6 +7,8 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import ArticleIcon from '@mui/icons-material/Article';
 import SearchIcon from '@mui/icons-material/Search';
 import EditIcon from '@mui/icons-material/Edit';
+import { mobile } from '../responsive';
+
 import styled from 'styled-components';
 
 const Container = styled.div`
@@ -22,6 +24,12 @@ const Wrapper = styled.div`
     margin: 70px auto;
     padding: 20px;
     background: #f1efef;
+    ${mobile({ 
+        width: "70%", 
+        margin: "40px auto", 
+        flexDirection: "column", 
+        justifyContent: "center" 
+    })};
 `;
 
 const Icon = styled.div`
