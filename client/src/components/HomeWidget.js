@@ -24,7 +24,13 @@ const Card = styled.div`
     flex-direction: column;
     align-items: center;
     text-align: left;
-    ${mobile({ width: "90%", textAlign: "center", marginBottom: "20px", justifyContent: "center" })};
+    ${mobile({ 
+        width: "90%", 
+        height: "250px", 
+        textAlign: "center", 
+        marginBottom: "20px", 
+        justifyContent: "center" 
+    })};
 `;
 
 const Image = styled.img`
@@ -35,7 +41,8 @@ const Image = styled.img`
 const Info = styled.div`
     display: flex;
     flex-direction: column;
-    width: 80%
+    width: 80%;
+    ${mobile({ width: "70%", alignItems: "center", justifyContent: "center" })};
 `;
 
 const Title = styled.h4`
