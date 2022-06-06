@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Footer from '../components/Footer';
+import { mobile } from '../responsive';
 import styled from 'styled-components';
 
 const Container = styled.div`
@@ -19,6 +20,7 @@ const Wrapper = styled.div`
   width: 25%;
   padding: 20px;
   background: white;
+  ${mobile({ width: "70%" })};
 `;
 
 const Title = styled.h1`
