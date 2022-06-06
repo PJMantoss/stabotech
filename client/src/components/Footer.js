@@ -13,6 +13,7 @@ import styled from 'styled-components';
 
 const Container = styled.div`
   display: flex; 
+  ${mobile({ width: "90%" })};
 `;
 
 const Wrapper = styled.div`
@@ -27,7 +28,7 @@ const Left = styled.div`
     display: inherit;
     flex-direction: column;
     align-items: center;
-    ${mobile({justifyContent: "center" })};
+    ${mobile({justifyContent: "center", width: "90%" })};
 `;
 
 const Logo = styled.img`
@@ -38,7 +39,7 @@ const Logo = styled.img`
 const Desc = styled.p`
     margin: 20px 0;
     text-align: justify;
-    ${mobile({ width: "90%" })};
+    ${mobile({ width: "inherit" })};
 `;
 
 const SocialContainer = styled.div`
