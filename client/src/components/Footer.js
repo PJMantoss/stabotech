@@ -39,7 +39,6 @@ const Logo = styled.img`
 const Desc = styled.p`
     margin: 20px 0;
     text-align: justify;
-    ${mobile({ width: "inherit" })};
 `;
 
 const SocialContainer = styled.div`
