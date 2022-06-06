@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/stabotech/static/css/main.073c9b0a.css",
-    "main.js": "/stabotech/static/js/main.138842e9.js",
+    "main.js": "/stabotech/static/js/main.c7e8842a.js",
     "static/js/787.c4e7f8f9.chunk.js": "/stabotech/static/js/787.c4e7f8f9.chunk.js",
     "index.html": "/stabotech/index.html",
     "main.073c9b0a.css.map": "/stabotech/static/css/main.073c9b0a.css.map",
-    "main.138842e9.js.map": "/stabotech/static/js/main.138842e9.js.map",
+    "main.c7e8842a.js.map": "/stabotech/static/js/main.c7e8842a.js.map",
     "787.c4e7f8f9.chunk.js.map": "/stabotech/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.138842e9.js"
+    "static/js/main.c7e8842a.js"
   ]
 }
