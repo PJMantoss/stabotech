@@ -22,7 +22,7 @@ const Title = styled.h2`
 const Desc = styled.div`
     font-size: 24px;
     margin-bottom: 20px;
-    ${mobile({ textAlign: "center" })};
+    ${mobile({ textAlign: "center", fontSize: "18px" })};
 `;
 
 const InputContainer = styled.div`
