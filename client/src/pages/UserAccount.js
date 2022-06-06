@@ -92,6 +92,7 @@ const CompanySection = styled.div`
     background: #fff;
     padding: 20px 0;
     margin-bottom: 20px;
+    ${mobile({ marginTop: "20px" })};
 `;
 
 const FollowBtn = styled.button`
