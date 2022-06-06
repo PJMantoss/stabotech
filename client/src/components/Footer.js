@@ -13,7 +13,7 @@ import styled from 'styled-components';
 
 const Container = styled.div`
   display: flex; 
-  ${mobile({ width: "90%" })};
+  ${mobile({ width: "90%", overflowX: "hidden" })};
 `;
 
 const Wrapper = styled.div`
