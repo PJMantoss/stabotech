@@ -20,7 +20,7 @@ const Wrapper = styled.div`
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
-    ${mobile({ flexDirection: "column", padding: "7px 10px" })};
+    ${mobile({ flexDirection: "column", padding: "5px", justifyContent: "center" })};
 `;
 
 const Left = styled.div`
@@ -28,7 +28,7 @@ const Left = styled.div`
     display: inherit;
     flex-direction: column;
     align-items: center;
-    ${mobile({justifyContent: "center", width: "90%" })};
+    ${mobile({ width: "90%", margin: "0 auto" })};
 `;
 
 const Logo = styled.img`
