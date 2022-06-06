@@ -120,7 +120,7 @@ const Footer = () => {
         <Wrapper>
             <Left>
                 <Link to="/" style={{textDecoration: "none"}}>
-                  <Logo src={process.env.PUBLIC_URL + './assets/logo-mini.png'} />
+                  <Logo src={process.env.PUBLIC_URL + "./assets/logo-mini.png"} />
                 </Link>
 
                 <Desc>
