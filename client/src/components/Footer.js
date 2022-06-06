@@ -7,6 +7,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import EmailIcon from '@mui/icons-material/Email';
 import { Link } from 'react-router-dom';
+import { mobile } from '../responsive';
 
 import styled from 'styled-components';
 
@@ -18,6 +19,7 @@ const Wrapper = styled.div`
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
+    ${mobile({ flexDirection: "column" })};
 `;
 
 const Left = styled.div`
