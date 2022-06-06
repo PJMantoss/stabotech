@@ -1,6 +1,7 @@
 import React from 'react';
 import { homeWidgets } from '../data';
 import styled from 'styled-components';
+import { mobile } from '../responsive';
 
 const Container = styled.div`
   display: flex; 
@@ -12,6 +13,7 @@ const Wrapper = styled.div`
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    ${mobile({ flexDirection: "column" })};
 `;
 
 const Card = styled.div`
