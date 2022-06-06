@@ -48,6 +48,7 @@ const Info = styled.div`
 const Title = styled.h4`
     font-size: 25px;
     text-transform: capitalize;
+    ${mobile({ fontSize: "20px"})};
 `;
 
 const Desc = styled.p`
