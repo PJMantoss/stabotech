@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "homepage": "https://pjmantoss.github.io/stabotech/client",
+  "homepage": "https://pjmantoss.github.io/stabotech/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
