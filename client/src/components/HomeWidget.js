@@ -75,7 +75,7 @@ const HomeWidget = () => {
     <Container>
         <Wrapper>
             {homeWidgets.map(item => (
-                <Card>
+                <Card key={item.id}>
                     <Image src={item.image} />
                     <Info>
                         <Title>{item.title}</Title>
