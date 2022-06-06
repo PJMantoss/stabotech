@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/stabotech/static/css/main.073c9b0a.css",
-    "main.js": "/stabotech/static/js/main.b73bc90e.js",
-    "static/js/787.c4e7f8f9.chunk.js": "/stabotech/static/js/787.c4e7f8f9.chunk.js",
-    "index.html": "/stabotech/index.html",
-    "main.073c9b0a.css.map": "/stabotech/static/css/main.073c9b0a.css.map",
-    "main.b73bc90e.js.map": "/stabotech/static/js/main.b73bc90e.js.map",
-    "787.c4e7f8f9.chunk.js.map": "/stabotech/static/js/787.c4e7f8f9.chunk.js.map"
+    "main.css": "/stabotech/client/static/css/main.073c9b0a.css",
+    "main.js": "/stabotech/client/static/js/main.1a9ff14e.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/stabotech/client/static/js/787.c4e7f8f9.chunk.js",
+    "index.html": "/stabotech/client/index.html",
+    "main.073c9b0a.css.map": "/stabotech/client/static/css/main.073c9b0a.css.map",
+    "main.1a9ff14e.js.map": "/stabotech/client/static/js/main.1a9ff14e.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/stabotech/client/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.b73bc90e.js"
+    "static/js/main.1a9ff14e.js"
   ]
 }
