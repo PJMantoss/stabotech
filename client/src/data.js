@@ -42,7 +42,7 @@ export const homeWidgets = [
         desc: "Discover how to create long-term value for your startup"
     },
     {
-        id: 3,
+        id: 4,
         image: "https://i.ibb.co/D8QYxSF/Market-Research.jpg",
         title: "market intelligence",
         desc: "Study emerging trends and industry patterns",
