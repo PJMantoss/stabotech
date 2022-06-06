@@ -24,6 +24,7 @@ const Card = styled.div`
     flex-direction: column;
     align-items: center;
     text-align: left;
+    ${mobile({ width: "90%", textAlign: "center", marginBottom: "20px" })};
 `;
 
 const Image = styled.img`
