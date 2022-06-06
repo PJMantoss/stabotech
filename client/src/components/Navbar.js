@@ -6,7 +6,7 @@ import { mobile } from '../responsive';
 
 const Container = styled.div`
     height: 60px;
-    ${mobile({ position: "relative", height: "auto", width:"95%" })};
+    ${mobile({ position: "relative", height: "auto", width:"90%" })};
 `;
 
 const Wrapper = styled.div`
