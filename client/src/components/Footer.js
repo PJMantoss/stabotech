@@ -61,18 +61,21 @@ const WhatWeDo = styled.div`
   flex: 1;
   padding: 20px;
   text-align: left;
+  ${mobile({ textAlign: "center" })};
 `;
 
 const CompanyInfo = styled.div`
   flex: 1;
   padding: 20px;
   text-align: left;
+  ${mobile({ textAlign: "center" })};
 `;
 
 const Center = styled.div`
   flex: 1;
   padding: 20px;
   text-align: left;
+  ${mobile({ textAlign: "center" })};
 `;
 
 const Title = styled.h3`
@@ -86,6 +89,7 @@ const List = styled.ul`
   text-align: left;
   margin: 0;
   padding: 0;
+  ${mobile({ textAlign: "center" })};
 `;
 
 const ListItem = styled.li`
