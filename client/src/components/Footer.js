@@ -27,6 +27,7 @@ const Left = styled.div`
     display: inherit;
     flex-direction: column;
     align-items: center;
+    ${mobile({justifyContent: "center" })};
 `;
 
 const Logo = styled.img`
@@ -37,6 +38,7 @@ const Logo = styled.img`
 const Desc = styled.p`
     margin: 20px 0;
     text-align: justify;
+    ${mobile({ width: "90%" })};
 `;
 
 const SocialContainer = styled.div`
