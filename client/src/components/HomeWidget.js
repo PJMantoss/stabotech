@@ -53,6 +53,7 @@ const Title = styled.h4`
 
 const Desc = styled.p`
     font-size: 16px;
+    ${mobile({ fontSize: "14px"})};
 `;
 
 const Link = styled.a`
@@ -79,7 +80,7 @@ const HomeWidget = () => {
                     <Info>
                         <Title>{item.title}</Title>
                         <Desc>{item.desc}</Desc>
-                        <Link>learn more</Link>
+                        <Link to="#">learn more</Link>
                     </Info>
                 </Card>
             ))}
