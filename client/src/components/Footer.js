@@ -19,7 +19,7 @@ const Wrapper = styled.div`
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
-    ${mobile({ flexDirection: "column" })};
+    ${mobile({ flexDirection: "column", padding: "7px 10px" })};
 `;
 
 const Left = styled.div`
